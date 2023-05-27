@@ -12,7 +12,7 @@ public class HotelApplication {
         reservationService.addRoom(firstRoom);
         reservationService.addRoom(room2);
         CustomerService customerService = CustomerService.getReference();
-        customerService.addCustomer("ledago@hotmail.com", "Leda", "Gao");
+        customerService.addCustomer("obiwan@hotmail.com", "ObiWan", "Kenobi");
         MainMenu mainMenu = MainMenu.getReference();
         mainMenu.menuDisplay();
     }
